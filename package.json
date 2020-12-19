@@ -5,7 +5,8 @@
     "dev": "next",
     "build": "next build",
     "test": "jest",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.0",
