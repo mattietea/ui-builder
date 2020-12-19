@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "plugin:@shopify/typescript",
+    "plugin:@shopify/react",
+    "plugin:@shopify/jest",
+    "plugin:@shopify/node",
+    "plugin:@shopify/polaris",
+    "plugin:@shopify/prettier"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "@shopify/strict-component-boundaries": "off"
+  }
+}
