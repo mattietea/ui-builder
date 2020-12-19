@@ -88,5 +88,5 @@ jobs:
         if: steps.node_modules.outputs.cache-hit != 'true'
         run: yarn install --frozen-lockfile --check-files
 
-      - name: ESLint
+      - name: Test
         run: yarn test
